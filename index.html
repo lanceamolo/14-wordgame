@@ -9,7 +9,36 @@
 
 <body>
   <div id='container'>
-    <button id="guessAgain">GUESS AGAIN</button>
+    <div id="rowOne">
+      <h6 id="welcome">Welcome to</h6>
+      <h1 id="hangmanTitle">HANGMAN</h1>
+    </div>
+    <div id="rowTwo">
+      <button id="startGame">Click to Start</button>
+      <button id="endGame">End game</button>
+    </div>
+    <div id="rowThree">
+      <h2 id="blankArea"></h2>
+    </div>
+    <div id="rowFour">
+      <div id="usedLetterSection">
+        <h2>Can't use these Letters</h2>
+        <p id="usedLetters">abcdedsadsadasdvwxyz</p>
+      </div>
+      <button id="guessButton">GUESS!</button>
+      <div id="guessArea">
+        <h3>Input your guess here!</h3>
+        <input type="text" id="letterInput" size="1">
+      </div>
+    </div>
+    <div id="rowFive">
+      <div id="userTurnText">
+        <h4>You're on turn #</h4>
+      </div>
+      <div id="userTurnNumber">
+        <h4>8</h4>
+      </div>
+    </div>
   </div>
   <script src="./index.js"></script>
 </body>
